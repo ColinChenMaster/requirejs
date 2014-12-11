@@ -12,7 +12,7 @@ require.config({
 			exports: '_'
 		},
 		'backbone':{
-			deps: ['underscore'],
+			deps: ['zepto','underscore'],
 			exports: 'Backbone'
 		}
 	}
